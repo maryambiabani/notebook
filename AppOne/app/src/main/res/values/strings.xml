@@ -9,4 +9,7 @@
     <string name="exit">Exit</string>
     <string name="search">Search</string>
     <string name="website">Website</string>
+    <string name="to_do_list">to do list</string>
+    <string name="reminder">reminder</string>
+    <string name="note">note</string>
 </resources>

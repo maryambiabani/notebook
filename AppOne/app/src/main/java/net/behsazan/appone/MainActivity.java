@@ -1,4 +1,4 @@
-package net.behsazan.ppone;
+package net.behsazan.appone;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
@@ -7,8 +7,9 @@ import androidx.appcompat.widget.AppCompatEditText;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.Toast;
+
+import net.behsazan.ppone.R;
 
 public class MainActivity extends AppCompatActivity {
     private AppCompatEditText user;
@@ -33,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if (user.getText().toString().equals("maryam")&& pass.getText().toString().equals("1234")){
                     Toast.makeText(getApplicationContext(),"success",Toast.LENGTH_LONG).show();
-                    Intent intent=new Intent(getApplicationContext(),homeActivity.class);
+                    Intent intent=new Intent(getApplicationContext(), FirstActivity.class);
                     startActivity(intent);
                 }else {
                     Toast.makeText(getApplicationContext(),"please enter correct username & pass",Toast.LENGTH_LONG).show();

@@ -1,4 +1,4 @@
-package net.behsazan.ppone;
+package net.behsazan.appone;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,7 +12,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-public class homeActivity extends AppCompatActivity {
+import net.behsazan.ppone.R;
+
+public class HomeActivity extends AppCompatActivity {
     private Toolbar toolbar;
 
     @Override

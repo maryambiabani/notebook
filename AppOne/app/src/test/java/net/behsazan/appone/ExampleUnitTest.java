@@ -1,4 +1,4 @@
-package net.behsazan.ppone;
+package net.behsazan.appone;
 
 import org.junit.Test;
 
