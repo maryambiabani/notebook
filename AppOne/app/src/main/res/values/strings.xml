@@ -12,6 +12,10 @@
     <string name="to_do_list">to do list</string>
     <string name="reminder">reminder</string>
     <string name="note">note</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_note">add note</string>
+    <string name="logout">logout</string>
 </resources>
