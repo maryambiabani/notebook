@@ -27,7 +27,7 @@
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="09194084677"
+        android:text="09121111111"
         android:layout_marginStart="@dimen/margin_16"
         android:textColor="@color/white" />
 
