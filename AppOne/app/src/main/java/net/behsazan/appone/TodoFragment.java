@@ -61,6 +61,7 @@ public class TodoFragment extends Fragment {
 
                 Intent intent = new Intent(view.getContext() , AddNoteActivity.class);
                 intent.putExtra("type",1);
+                intent.putExtra("flag",1);
                 startActivity(intent);
 
             }

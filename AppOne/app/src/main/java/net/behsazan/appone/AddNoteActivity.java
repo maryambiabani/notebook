@@ -32,6 +32,7 @@ public class AddNoteActivity extends AppCompatActivity {
     String time ="";
     Bundle bundle;
     int type = 0;
+    int flag=0;
     Note noteEdit;
 
     @Override
@@ -49,6 +50,7 @@ public class AddNoteActivity extends AppCompatActivity {
 
         bundle = getIntent().getExtras();
         type = bundle.getInt("type");
+        flag=bundle.getInt("flag");
         if(type==1) {
 
         }else {
@@ -74,6 +76,7 @@ public class AddNoteActivity extends AppCompatActivity {
                 note.setDescription(binding.edtDescription.getText().toString());
                 note.setTime(time);
                 note.setDate(date);
+                note.setType(flag);
 
                 long result = noteDbAdapter.insert(note);
 

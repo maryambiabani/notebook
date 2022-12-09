@@ -39,7 +39,7 @@ public class NoteDBAdapter extends NoteDatabase{
         SQLiteDatabase db = getReadableDatabase();
         List<Note> noteList = new ArrayList<>();
 
-        Cursor cursor = db.rawQuery("select * from " + NoteDatabase.TABLE_NOTE, null);
+        Cursor cursor = db.rawQuery("select * from " + NoteDatabase.TABLE_NOTE+ " where "+NoteDatabase.KEY_TYPE+ " = ? " , new String[]{String.valueOf(1)});
         while (cursor.moveToNext()) {
             Note note = new Note();
             note.setTitle(cursor.getString(cursor.getColumnIndex(NoteDatabase.KEY_TITLE)));
