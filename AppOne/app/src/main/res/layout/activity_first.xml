@@ -34,7 +34,7 @@ android:orientation="vertical"
         android:layout_height="wrap_content"
         android:text="@string/to_do_list"
         android:id="@+id/btn_toDoList"
-        android:layout_marginTop="@dimen/margin_32"
+        android:layout_marginTop="@dimen/margin_8"
         android:layout_marginStart="@dimen/margin_64"
         android:layout_marginEnd="@dimen/margin_64"
         android:textColor="@color/white"
@@ -63,7 +63,28 @@ android:orientation="vertical"
         android:background="@color/light_blue_300"
         />
 
-
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/location"
+        android:id="@+id/btn_map"
+        android:layout_marginTop="@dimen/margin_32"
+        android:layout_marginStart="@dimen/margin_64"
+        android:layout_marginEnd="@dimen/margin_64"
+        android:textColor="@color/white"
+        android:background="@color/light_blue_300"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_name"
+        android:id="@+id/btn_getName"
+        android:layout_marginTop="@dimen/margin_32"
+        android:layout_marginStart="@dimen/margin_64"
+        android:layout_marginEnd="@dimen/margin_64"
+        android:textColor="@color/white"
+        android:background="@color/light_blue_300"
+        />
 </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
     <com.google.android.material.navigation.NavigationView

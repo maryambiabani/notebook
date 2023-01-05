@@ -86,5 +86,12 @@ ActivityFirstBinding binding;
                 startActivity(intent);
             }
         });
+        binding.btnGetName.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(getApplicationContext(), ApiActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

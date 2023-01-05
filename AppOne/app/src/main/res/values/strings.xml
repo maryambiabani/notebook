@@ -25,4 +25,6 @@
     <string name="save">save</string>
     <string name="add_success">Note Added Successfully</string>
     <string name="add_error">Error adding new note</string>
+    <string name="location">location</string>
+    <string name="get_name">get name</string>
 </resources>
