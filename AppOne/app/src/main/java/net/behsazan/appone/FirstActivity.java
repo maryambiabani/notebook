@@ -93,5 +93,12 @@ ActivityFirstBinding binding;
                 startActivity(intent);
             }
         });
+        binding.btnMap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(getApplicationContext(), LocationActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
